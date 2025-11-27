@@ -32,9 +32,6 @@ app.post("/user" , async(req,res)=>{
 })
 
 
-
-
-
 app.listen(3000)
 
 console.log("hello docker and ci cs")
