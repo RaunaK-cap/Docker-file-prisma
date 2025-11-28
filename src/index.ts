@@ -33,9 +33,19 @@ app.post("/user" , async(req,res)=>{
 
 
 app.get("/testing" , (req, res)=>{
-    
+
     res.json({
         message:"github action is also working here "
+    })
+})
+
+app.post("/checkec2" , (req, res)=>{
+
+    const { username } = req.body
+
+
+    res.json({
+        message:"ec2 is working , code has been deployed to ec2 "
     })
 })
 
