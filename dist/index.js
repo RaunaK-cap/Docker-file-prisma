@@ -22,6 +22,11 @@ app.post("/user", async (req, res) => {
         message: "users data stored "
     });
 });
+app.get("/testing", (req, res) => {
+    res.json({
+        message: "github action is also working here "
+    });
+});
 app.listen(3000);
 console.log("hello docker and ci cs");
 //# sourceMappingURL=index.js.map
